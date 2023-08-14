@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attractive Box</title>
+    <style>
+        body {
+            background: color #393939;;
+            font-family: Arial, sans-serif;
+        }
+
+        .box {
+            background-color: #021415;
+            height: 350px;
+            width: 300px;
+            text-align: center;
+            margin: 50px auto;
+            border-radius: 10px;
+            border: 2px solid #e71111;
+            box-shadow: 0px 4px 8px rgba(7, 206, 34, 0.1);
+        }
+
+        button {
+            background-color: #6914fb;
+            color: rgb(10, 207, 228);
+            text-align: center;
+            padding: 12px 20px;
+            margin-top: 20px;
+            cursor: pointer;
+            border: none;
+            border-radius: 20px;
+            box-shadow: 0px 2px 4px rgba(239, 9, 9, 0.2);
+        }
+
+        .row {
+            margin: 10px;
+        }
+
+        .row input {
+            padding: 8px;
+            font-size: 14px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            border: 2px solid #0737e3;
+        }
+
+        h1 {
+            text-align: center;
+            color: #b5e710;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Welcome!</h1>
+        <div class="row">
+            <input type="text" placeholder="Name">
+        </div>
+        <div class="row">
+            <input type="text" placeholder="Email">
+        </div>
+        <button>Submit</button>
+    </div>
+</body>
+</html>
